@@ -12,7 +12,7 @@ SCRABBLE_LETTER_VALUES = {
 }
 
 
-WORDLIST_FILENAME = "words.txt"
+WORDLIST_FILENAME = "words_words_game.txt"
 
 def load_words():
 
