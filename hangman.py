@@ -6,12 +6,7 @@ WORDLIST_FILENAME = "words.txt"
 
 
 def load_words():
-    """
-    Returns a list of valid words. Words are strings of lowercase letters.
-    
-    Depending on the size of the word list, this function may
-    take a while to finish.
-    """
+  
     print("Loading word list from file...")
     # inFile: file
     inFile = open(WORDLIST_FILENAME, 'r')
@@ -25,11 +20,7 @@ def load_words():
 
 
 def choose_word(wordlist):
-    """
-    wordlist (list): list of words (strings)
-    
-    Returns a word from wordlist at random
-    """
+  
     return random.choice(wordlist)
 
 
@@ -202,15 +193,7 @@ def hangman(secret_word):
   
            
           
-    
 
-# When you've completed your hangman function, scroll down to the bottom
-# of the file and uncomment the first two lines to test
-#(hint: you might want to pick your own
-# secret_word while you're doing your own testing)
-
-
-# -----------------------------------
 
 
 
